@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "99437220411",
+    "project_id": "voicemind-a970nitrolite",
+    "storage_bucket": "voicemind-a970nitrolite.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99437220411:android:60c1150a521967d794421e",
+        "android_client_info": {
+          "package_name": "com.example.voicemind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99437220411-a68i00qm2buucmjdfc01ontotts42ovj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbvdhuRpyq-7yFNe5XE_fevdna7ZA-9R0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99437220411-a68i00qm2buucmjdfc01ontotts42ovj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
