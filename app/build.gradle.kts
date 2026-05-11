@@ -68,6 +68,8 @@ dependencies {
     implementation(libs.androidx.room3.common.jvm)
     implementation(libs.androidx.adapters)
     implementation(libs.androidx.room3.runtime)
+    implementation(libs.androidx.compose.ui.text)
+    implementation(libs.androidx.runtime)
     ksp(libs.androidx.room3.compiler)
     implementation(libs.androidx.compose.foundation.layout)
 

@@ -3,9 +3,8 @@ package com.example.voicemind
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.navigation.NavGraph
 import androidx.navigation.compose.rememberNavController
-import com.example.voicemind.ui.navigation.NavGraph
+import com.example.voicemind.ui.navigation.AppNavigationRoot
 import com.example.voicemind.ui.theme.VocabMindTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -16,7 +15,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             VocabMindTheme {
                 val navController = rememberNavController()
-                NavGraph(navController = navController)
+                AppNavigationRoot(navController = navController)
             }
         }
     }
